@@ -1,0 +1,180 @@
+body {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.header-back-image {
+    background-image: url("http://www.bodyasbillboard.com/wp-content/uploads/2015/04/Ocean-waves.jpg");
+    background-size: 100% auto;
+}
+.header-links {
+    display: flex;
+    justify-content: space-between;
+}
+.header-links-left {
+    display: flex;
+    margin-top: 10px;
+    margin-left: -35px;
+    align-items: center;
+}
+.header-links-left> img {
+    margin-right: 10px;
+}
+.header-links-right {
+    display: flex;
+    align-items: center;
+}
+.header-links-right> div {
+    margin: 10px;
+    font-weight: bold;
+}
+.header-trans {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    background-color: rgba(0, 68, 105, 0.8);
+}
+.header-content {
+    width: 960px;
+    height: 426px;
+    margin: auto;
+}
+.header-title {
+    text-align: center;
+    margin-top: 140px;
+    color: white;
+}
+.header-subtitle {
+    text-align: center;
+    margin-top: -20px;
+}
+.main {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+}
+.main-content {
+    flex: 1;
+}
+.main-content> p {
+    margin-right: 150px;
+}
+.main-content-heading {
+    margin-top: 58px;
+    font-family: 'Oswald';
+    font-size: 59px;
+    font-weight: bolder;
+    color: #004469;
+}
+.main-content-subheading {
+    display: flex;
+}
+.anne-marie {
+    color: #0079c4;
+    display: flex;
+}
+.content-date {
+    color: #b0c0cc;
+    margin-left: 20px;
+}
+.Radical {
+    font-size: 32px;
+    color: #0079c4;
+    border-left: 2px solid #b0c0cc;
+    padding-left: 20px;
+}
+.social-media-links {
+    display: flex;
+}
+.social-media-links > i{
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.main-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+.main-sidebar {
+    margin-top: 81px;
+    margin-right: 23px;
+}
+.main-sidebar> div {
+    margin-top: 10px;
+}
+.anne-marie-social {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0px;
+}
+.anne-marie-social > a{
+  margin-top: -30px;
+  margin-right: 5px;
+}
+.main-sidebar > img {
+  margin-top: 30px;
+}
+.anne-marie-social> div {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.Side-bar-Section-Heading  {
+    margin-left: -20px;
+    color:#0079c4;
+    font-size: 14px;
+}
+.popular-header {
+    font-size: 75px;
+    text-align: center;
+    font-weight: bolder;
+    color: #004469;
+}
+.popular-content {
+    display: flex;
+    position: relative;
+    align-items: stretch;
+    margin: 10px;
+}
+.popular-content-trans {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+  background-color: rgba(0, 68, 105, 10);
+}
+.popular-content > div {
+    width: auto;
+}
+
+.ANOTHER-COOL-POST {
+  font-size: 28px;
+  position: relative;
+  margin: -50px;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.POST-TITLE {
+  font-size: 28px;
+  position: relative;
+  margin: -50px;
+  margin-left: 20px;
+  margin-right: -20px;
+}
+
+.Another-long-Post {
+  position: relative;
+  margin: -50px;
+  font-size: 18px;
+  margin-left: 20px;
+  vertical-align: text-top;
+}
+
+.Cool-Post {
+  position: relative;
+  margin: -50px;
+  margin-left: 20px;
+}
